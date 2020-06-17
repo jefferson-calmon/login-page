@@ -55,9 +55,9 @@ const registerUser = () => {
         user: document.getElementById('user'),
         password: document.getElementById('password')
     }
-    alert('dfbb')
+    console.log(data)
     users.appendUser(data)
-
+    window.location = '/'
 }
 
 
