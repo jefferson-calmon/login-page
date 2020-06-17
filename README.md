@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Página de login</h1>
+<h1>:desktop_computer: Página de login</h1>
 <p>Esta é uma simples página de login e cadastro de usuarios criado com ReactJS.</p>
 <img src="img-readme/screen.png"/>
 
