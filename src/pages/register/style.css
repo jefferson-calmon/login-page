@@ -33,13 +33,13 @@
     border-radius: 10px;
 }
 
-form{
+.form{
     width: 100%;
     height: 100%;
     position: relative;
 }
 
-form h2{
+.form h2{
     text-align: center;
     font-size: 2.3em;
     margin-bottom: 50px;
@@ -93,7 +93,7 @@ form h2{
     background: linear-gradient(90deg, #00ff95, rgb(0, 140, 255));
 }
 
-#container #box form .row input:focus + label, #container #box form .row input:valid + label{
+#container #box .form .row input:focus + label, #container #box .form .row input:valid + label{
     transition: 0.5s;
     top: -35px;
     left: -10px;
@@ -101,13 +101,13 @@ form h2{
     color: rgba(0, 0, 0, 0.78);
 }
 
-#container #box form .row input:focus ~ .line2, #container #box form .row input:valid ~ .line2{
+#container #box .form .row input:focus ~ .line2, #container #box .form .row input:valid ~ .line2{
     /* transform-origin: left; */
     width: 100%;
     z-index: 10;
 }
 
-form input[type="submit"]{
+.form input[type="submit"]{
     padding: 10px 15px;
     border: none;
     box-shadow: none;
