@@ -17,7 +17,7 @@
 **Você pode acessar este site clicando [aqui]()**
 
 Para instalar clone este repositório com:
-````bash
+```bash
 git clone https://github.com/jefferson-calmon/login-page.git
 ```
 Acesse o repositório, radando ```cd login-page```
